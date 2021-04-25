@@ -4,6 +4,8 @@ from time import strftime
 
 root=Tk()
 root.title('DClock-001')
+root.resizable(False,False)
+root.iconbitmap('icon.ico')
 
 def time():
 	string=strftime('%H:%M:%S %p')
